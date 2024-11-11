@@ -1,7 +1,7 @@
 library(Rcpp)
 library(RcppEigen)
 library(stats)
-sourceCpp("List_3_Ex_10_Rcpp.cpp")
+sourceCpp("src.cpp")
 # Set up a 1x2 plot layout
 par(mfrow=c(1,1))
 
